@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цветочный магазин</title>
+    <title>Flowers</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="style/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <!--header-->
+   
+    <!-- главная страница -->
     <header>
-        <a href="#" class="logo"><img src="images/free-icon-flower-pot-3820025.png" width="90" alt=""></a>
+        <a href="#" class="logo"><img src="images/logo.svg" width="90" alt=""></a>
         <ul class="navlist">
             <li><a href="#home" class="active">Главная</a></li>
             <li><a href="#about">О нас</a></li>
-            <li><a href="#shop">Товары</a></li>
+            <li><a href="#shop">Наши цветы</a></li>
             <li><a href="#review">Клиенты</a></li>
             <li><a href="#contact">Связь с нами</a></li>
         </ul>
@@ -25,12 +30,11 @@
         </div>
     </header>
 
-    <!--home-->
     <section class="home" id="home">
         <div class="home-text">
-            <h1><span style="color: #4cc64c;">Цветочный</span> мир</h1>
+            <h1><span style="color: #55a630;">Цветочный</span><br>мир</h1>
             <p>
-                У нас продаются цветочные растения. Успейте их приобрести для вашего уюта!
+                У нас продаются комнатные растения <br>для вашего уюта! Успейте!
             </p>
             <a href="#" class="btn">Посмотреть</a>
         </div>
@@ -39,41 +43,38 @@
         </div>
     </section>
 
-    <!-- container -->
     <section class="container">
         <div class="container-box">
-            <img src="images/delivery.png" alt="">
-            <h3>Акции и скидки</h3>
-            <a href="#">Узнать больше</a>
+            <img src="images/time.png" alt="">
+            <h3>09:00 - 17:00</h3>
+            <a href="#">Время работы</a>
         </div>
         <div class="container-box">
-            <img src="images/forklift.png" alt="">
-            <h3>Доставка цветов</h3>
-            <a href="#">Узнать больше</a>
+            <img src="images/location.png" alt="">
+            <h3>г. Тихвин, ул. Лесная, д. 1</h3>
+            <a href="#">Где мы?</a>
         </div>
         <div class="container-box">
-            <img src="images/gift.png" alt="">
-            <h3>Бонусы и подарки</h3>
-            <a href="#">Узнать больше</a>
+            <img src="images/service-center.png" alt="">
+            <h3>+7(111)140-01-10</h3>
+            <a href="#">Вопросы? Позвоните нам</a>
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="images/a-woman-is-holding-a-festive-bouquet-with-chrysathemum-flowers-in-her-hands.jpg" alt="">
+            <img src="images/about.png" alt="">
         </div>
         <div class="about-text">
             <h2>О нас</h2>
             <p>
-                В нашем магазине представлен знакомый ассортимент цветочной продукции. Каталог нашей продукции насчитывает более 500
-                позиций, включающих в себя широкий ассортимент срезанных и горшечных цветов, изящные букеты-комплименты и огромные
-                корзины, яркие
+                В нашем магазине представлен знакомый ассортимент цветочной продукции. Каталог нашей продукции насчитывает более 500 позиций, включающих в себя широкий ассортимент срезанных и горшечных цветов, изящные букеты-комплименты и огромные корзины, яркие
                 и нежные композиции, букеты в шляпных коробках, монобукеты.
             </p>
             <p class="text">
-                Приятным дополнением к букету послужат подарки: вазы, шары, игрушки, миниатюрные поздравления.
+                Приятным дополнением к букету послужат подарки: вазы, игрушки, шарики, миниатюрные пожелания.
             </p>
-            <a href="#" class="btn">Подробнее</a>
+            <a href="#" class="btn">Узнать больше</a>
         </div>
     </section>
 
@@ -84,7 +85,7 @@
         </div>
         <div class="shop-content">
             <div class="row"> <!--- 1 --->
-                <img src="shop/pr1_thumbnail.png" alt="">
+                <img src="images/pr1_thumbnail.png" alt="">
                 <h3>Cпатифиллум</h3>
                 <p style="text-decoration: underline;">Описание</p>
                 <p>
@@ -106,7 +107,7 @@
             </div>
 
             <div class="row"> <!--- 2 --->
-                <img src="shop/pr2_thumbnail.png" alt="">
+                <img src="images/pr2_thumbnail.png" alt="">
                 <h3>Ананас Чампака</h3>
                 <p style="text-decoration: underline;">Описание</p>
                 <p>
@@ -128,7 +129,7 @@
             </div>
 
             <div class="row"> <!--- 3 --->
-                <img src="shop/pr3_thumbnail.png" alt="">
+                <img src="images/pr3_thumbnail.png" alt="">
                 <h3>Антуриум Розовый</h3>
                 <p style="text-decoration: underline;">Описание</p>
                 <p>
@@ -136,75 +137,6 @@
                     Освещение: светлое место, с притенением от прямых солнечных лучей. <br>
                     Температура: от 20°С до 25°С.<br>
                     Подкормка: органическими минеральными удобрениями   
-                </p>
-                <div class="in-text">
-                    <div class="price">
-                        <h4>2000 руб.</h4>
-                    </div>
-                    <div class="s-btnn">
-                        <a href="#">Купить сейчас</a>
-                    </div>
-                </div>
-                <div class="top-icon">
-                    <a href="#"><i class="bx bx-heart"></i></a>
-                </div>
-            </div>
-
-            <div class="row"> <!--- 4 --->
-                <img src="shop/pr4_thumbnail.png" alt="">
-                <h3>Антуриум Розовый</h3>
-                <p style="text-decoration: underline;">Описание</p>
-                <p>
-                    Семейство: ароидные. <br>
-                    Освещение: светлое место, с притенением от прямых солнечных лучей. <br>
-                    Температура: от 20°С до 25°С.<br>
-                    Подкормка: органическими минеральными удобрениями
-                </p>
-                <div class="in-text">
-                    <div class="price">
-                        <h4>2000 руб.</h4>
-                    </div>
-                    <div class="s-btnn">
-                        <a href="#">Купить сейчас</a>
-                    </div>
-                </div>
-                <div class="top-icon">
-                    <a href="#"><i class="bx bx-heart"></i></a>
-                </div>
-            </div>
-
-            <div class="row"> <!--- 5 --->
-                <img src="shop/pr3_thumbnail.png" alt="">
-                <h3>Антуриум Розовый</h3>
-                <p style="text-decoration: underline;">Описание</p>
-                <p>
-                    Семейство: ароидные. <br>
-                    Освещение: светлое место, с притенением от прямых солнечных лучей. <br>
-                    Температура: от 20°С до 25°С.<br>
-                    Подкормка: органическими минеральными удобрениями
-                </p>
-                <div class="in-text">
-                    <div class="price">
-                        <h4>2000 руб.</h4>
-                    </div>
-                    <div class="s-btnn">
-                        <a href="#">Купить сейчас</a>
-                    </div>
-                </div>
-                <div class="top-icon">
-                    <a href="#"><i class="bx bx-heart"></i></a>
-                </div>
-            </div>
-
-            <div class="row"> <!--- 6 --->
-                <img src="shop/pr2_thumbnail.png" alt="">
-                <h3>Антуриум Розовый</h3>
-                <p style="text-decoration: underline;">Описание</p>
-                <p>
-                    Семейство: ароидные. <br>
-                    Освещение: светлое место, с притенением от прямых солнечных лучей. <br>
-                    Температура: от 20°С до 25°С.<br>
-                    Подкормка: органическими минеральными удобрениями
                 </p>
                 <div class="in-text">
                     <div class="price">
@@ -227,18 +159,19 @@
 
     <section class="review" id="review">
         <div class="middle-text">
-            <h4>Наши посетители</h4>
-            <h2>Отзывы наших покупателей</h2>
+            <h4>Наши покупатели</h4>
+            <h2>Отзывы покупателей о наших цветах</h2>
         </div>
         <div class="review-content">
-            <div class="box">
-                <p>Здесь отзыв покупателя</p>
+            <div class="box"> <!-- 1 -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ad eveniet itaque debitis quae distinctio voluptas!
+                </p>
                 <div class="in-box">
                     <div class="bx-img">
                         <img src="images/avatar1.png" alt="">
                     </div>
                     <div class="bxx-text">
-                        <h4>Виктория Павловна</h4>
+                        <h4>Ольга Павловна</h4>
                         <div class="stars">
                             <a href="#"><i class="bx bxs-star"></i></a>
                             <a href="#"><i class="bx bxs-star"></i></a>
@@ -249,14 +182,17 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
-                <p>Здесь отзыв покупателя</p>
+
+            <div class="box"> <!-- 2 -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ad eveniet itaque debitis quae distinctio
+                    voluptas!
+                </p>
                 <div class="in-box">
                     <div class="bx-img">
                         <img src="images/avatar2.png" alt="">
                     </div>
                     <div class="bxx-text">
-                        <h4>Виктория Павловна</h4>
+                        <h4>Евгения Игоревна</h4>
                         <div class="stars">
                             <a href="#"><i class="bx bxs-star"></i></a>
                             <a href="#"><i class="bx bxs-star"></i></a>
@@ -267,14 +203,17 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
-                <p>Здесь отзыв покупателя</p>
+
+            <div class="box"> <!-- 3 -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ad eveniet itaque debitis quae distinctio
+                    voluptas!
+                </p>
                 <div class="in-box">
                     <div class="bx-img">
                         <img src="images/avatar3.png" alt="">
                     </div>
                     <div class="bxx-text">
-                        <h4>Виктория Павловна</h4>
+                        <h4>Евгения Игоревна</h4>
                         <div class="stars">
                             <a href="#"><i class="bx bxs-star"></i></a>
                             <a href="#"><i class="bx bxs-star"></i></a>
@@ -285,10 +224,33 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <div class="contact-img">
+                <div class="c-one">
+                    <img src="images/whatsapp.png" alt="">
+                </div>
+                <div class="c-one">
+                    <img src="images/vkontakte.png" alt="">
+                </div>
+                <div class="c-one">
+                    <img src="images/dribble.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- scroll -->
+    <a href="#" class="scroll"><i class="bx bx-up-arrow-alt"></i></a>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="js/script.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
 </body>
 </html>
